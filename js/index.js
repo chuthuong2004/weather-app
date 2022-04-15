@@ -65,7 +65,7 @@ const handelVoice = (text) => {
             console.log(cityName.innerHTML);
             console.log(temperature.innerHTML);
             speak(`The weather in ${cityName.innerHTML} is ${temperature.innerHTML} degrees Celsius`)
-        }, 200);
+        }, 1000);
         return;
     }
     // else {
@@ -91,7 +91,7 @@ const handelVoice = (text) => {
         return;
     }
     if (handledText.includes('yêu')) {
-        speak("Nooooooooooo")
+        speak("Nooooooooooo00000000000000000000")
         return;
     }
     if (handledText.includes('tại sao')) {
