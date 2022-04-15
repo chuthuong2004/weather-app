@@ -91,7 +91,7 @@ const handelVoice = (text) => {
         return;
     }
     if (handledText.includes('yêu')) {
-        speak("Nooooooooooo00000000000000000000")
+        speak("Nooooooooooo")
         return;
     }
     if (handledText.includes('tại sao')) {
